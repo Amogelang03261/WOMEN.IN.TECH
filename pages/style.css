@@ -1,0 +1,83 @@
+/* General Page Styles */
+body { font-family: Arial, sans-serif; 
+    margin: 0; 
+    background: #f8f9fa; 
+    color: #333; 
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 2rem;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Women_in_tech.jpg') no-repeat center center/cover;
+    color: rgb(19, 1, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Logo Styling */
+header img.logo {
+    width: 100px;               /* adjust size as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;        /* center logo + spacing below */
+    border-radius: 50%;         /* circular logo */
+    border: 3px solid white;    /* white border for contrast */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* subtle shadow for depth */
+    transition: transform 0.3s; /* smooth hover effect */
+}
+
+header img.logo:hover {
+    transform: scale(1.1);      /* slight zoom on hover */
+}
+
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    background: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; /* Gold */
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Headings */
+h1, h2 {
+    color: #4b0082;
+}
+
+/* Contact Page Styling */
+.contact-info p {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background: #4b0082;
+    color: white;
+}
